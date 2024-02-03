@@ -8,7 +8,7 @@ const Booking = () => {
       <div className="flex justify-center">
         <div
           className="flex flex-col md:flex-row items-center gap-5 bg-[#f1f5f5] px-12 py-2 w-fit 
-         rounded-sm md:rounded-full text-md text-[#777e90]"
+         rounded-2xl md:rounded-full text-md text-[#777e90]"
         >
           <p>Economy</p>
           <p className="bg-[#3e5cb8] text-white px-10 py-3 rounded-full">

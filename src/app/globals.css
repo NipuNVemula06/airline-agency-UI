@@ -58,6 +58,6 @@ main {
 
 @media screen and (max-width: 576px) {
   .container {
-    max-width: 350px;
+    max-width: 320px;
   }
 }

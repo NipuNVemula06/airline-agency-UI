@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Banner = () => {
@@ -9,44 +10,24 @@ const Banner = () => {
           <br />a great experience
         </h1>
       </div>
-      <div className="h-[250px] md:h-[300px] lg:h-[350px] xl:h-[450px] relative">
-        <div
-          className="container h-[150px] md:h-[200px] lg:h-[250px] xl:h-[350px] absolute top-10 left-9
-        md:top-12 md:left-14 lg:top-11 xl:left-36
-        "
-        >
-          <img
-            src="/bluesky.jpg"
-            alt="bluesky"
-            className="object-cover md:rounded-full h-full w-full rounded-full"
-          />
+      <div className="h-[280px] lg:h-[350px] xl:h-[420px] relative">
+        <div className="relative h-full w-full z-10">
+          <Image src="/main.png" alt="main" layout="fill" objectFit="cover" />
         </div>
         <div
-          className="absolute top-2 md:-top-7 
-        lg:-top-20
-        xl:-top-32
-        z-10"
+          className="container h-[60%] xl:h-[90%] md:h-[75%] absolute rounded-full
+        transform -translate-x-1/2 -translate-y-1/2  top-1/2 left-1/2"
         >
-          <img
-            src="/main.png"
-            alt="airplane"
-            className="object-cover h-full drop-shadow-lg "
-          />
+          <div className="relative h-full w-full">
+            <Image
+              src="/bluesky.jpg"
+              alt="main"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-full"
+            />
+          </div>
         </div>
-        {/* <div className="absolute -top-40 left-0 z-10">
-          <img
-            src="/main.png"
-            alt="airplane"
-            className="object-cover h-full drop-shadow-lg "
-          />
-        </div>
-        <div className="absolute top-2 left-40 w-[1220px] h-[350px] mx-auto">
-          <img
-            src="/bluesky.jpg"
-            alt="bluesky"
-            className="object-cover md:rounded-full h-full w-full "
-          />
-        </div> */}
       </div>
     </div>
   );

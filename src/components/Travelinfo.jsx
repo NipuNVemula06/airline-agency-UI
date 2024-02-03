@@ -12,7 +12,7 @@ const Travelinfo = () => {
             <br></br>
             all around the world
           </h1>
-          <div className="mt-6 px-10 py-3 rounded-full border-2 border-[#777e90] w-fit">
+          <div className="mt-6 md:px-10 md:py-3 px-4 py-2 rounded-full border-2 border-[#777e90] w-fit">
             View All
           </div>
         </div>

@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="container flex items-center justify-between pt-3">
+    <header className="container flex items-center justify-between pt-6">
       <div className="flex flex-col items-center leading-[0.8]">
         <h1 className="text-[40px] md:text-[50px] font-semibold">Flivain</h1>
         <p className="text-[12px] md:text-sm text-[#777e90]">
@@ -42,7 +42,7 @@ const Header = () => {
           Destinations
         </Link>
       </nav>
-      <button className="bg-[#3e5cb8] text-white px-10 py-2 text-lg rounded-full cursor-pointer">
+      <button className="bg-[#3e5cb8] text-white px-8 md:px-10 py-2 text-lg rounded-full cursor-pointer">
         Contact
       </button>
     </header>

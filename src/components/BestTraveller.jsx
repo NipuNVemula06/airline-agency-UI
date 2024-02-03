@@ -17,7 +17,7 @@ const BestTraveller = () => {
               className="object-cover rounded-t-[160px]"
             />
           </div>
-          <div className="h-[35%] w-full bg-white rounded-b-[160px] flex flex-col justify-center items-center">
+          <div className="h-[35%] w-full bg-[#f1f5f5] rounded-b-[160px] flex flex-col justify-center items-center">
             <span className="font-semibold text-lg">William Liam</span>
             <p className="text-sm font-medium text-[#777e90]">@william.liam</p>
           </div>
@@ -32,7 +32,7 @@ const BestTraveller = () => {
               className="object-cover rounded-t-[160px]"
             />
           </div>
-          <div className="h-[35%] w-full bg-white rounded-b-[160px] flex flex-col justify-center items-center">
+          <div className="h-[35%] w-full bg-[#f1f5f5] rounded-b-[160px] flex flex-col justify-center items-center">
             <span className="font-semibold text-lg">James Noah</span>
             <p className="text-sm font-medium text-[#777e90]">@james.noah</p>
           </div>
@@ -47,7 +47,7 @@ const BestTraveller = () => {
               className="object-cover rounded-t-[160px]"
             />
           </div>
-          <div className="h-[35%] w-full bg-white rounded-b-[160px] flex flex-col justify-center items-center">
+          <div className="h-[35%] w-full bg-[#f1f5f5] rounded-b-[160px] flex flex-col justify-center items-center">
             <span className="font-semibold text-lg">Levis Turisha</span>
             <p className="text-sm font-medium text-[#777e90]">@levis.turisha</p>
           </div>
@@ -62,7 +62,7 @@ const BestTraveller = () => {
               className="object-cover rounded-t-[160px] object-top"
             />
           </div>
-          <div className="h-[35%] w-full bg-white rounded-b-[160px] flex flex-col justify-center items-center">
+          <div className="h-[35%] w-full bg-[#f1f5f5] rounded-b-[160px] flex flex-col justify-center items-center">
             <span className="font-semibold text-lg">Sebastian Jabhn</span>
             <p className="text-sm font-medium text-[#777e90]">
               @sebastian.jabhn
